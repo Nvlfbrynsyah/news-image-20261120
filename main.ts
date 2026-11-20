@@ -1,12 +1,11 @@
-import { copyFile, mkdir } from 'node:fs/promises';
+import { mkdir, copyFile } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
 import { join } from 'node:path';
 
-const source = new URL('./entry.png', import.meta.url);
+const source = fileURLToPath(new URL('./entry.png', import.meta.url));
 const outputDir = process.env.MAKEFUN_OUTPUT_DIR || '/output';
 
-async function main() {
-  await mkdir(outputDir, { recursive: true });
-  await copyFile(source, join(outputDir, 'entry.png'));
-}
+await mkdir(outputDir, { recursive: true });
+await copyFile(source, join(outputDir, 'entry.png'));
 
-await main();
+console.log('Created entry.png');
