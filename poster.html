@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>The World in One Image | 20 November 2026</title>
+<style>
+  * { box-sizing:border-box; }
+  html,body { width:1024px; height:1024px; margin:0; overflow:hidden; }
+  body { background:#faf6ee; color:#222; font:15px Arial,Helvetica,sans-serif; }
+  h1,h2,p,figure { margin:0; }
+  h1,h2 { font-family:Georgia,serif; }
+  h2 { color:#16294d; }
+  svg { display:block; width:100%; }
+  .masthead { height:96px; text-align:center; background:#0f1e3a; color:white; border-bottom:3px solid #d4a437; padding-top:10px; }
+  .masthead p { color:#d4a437; font-size:14px; font-weight:bold; letter-spacing:4px; line-height:19px; }
+  .masthead h1 { font-size:49px; line-height:58px; }
+  .atlas { height:220px; position:relative; background:#dceaf2; border-bottom:1px solid #a4bbc7; }
+  .atlas figcaption { height:30px; display:grid; place-items:center; font-size:13px; font-weight:bold; letter-spacing:2px; color:#16294d; }
+  .atlas svg { height:189px; }
+  .labels { font:bold 14px Arial,Helvetica,sans-serif; fill:#16294d; paint-order:stroke; stroke:#eef5f7; stroke-width:3.5px; stroke-linejoin:round; }
+  .pin circle { fill:#c0392b; stroke:white; stroke-width:2; }
+  .pin text { text-anchor:middle; fill:white; font:bold 17px Arial,Helvetica,sans-serif; }
+  .hero { height:260px; padding:12px 20px 10px; display:grid; grid-template-columns:56fr 44fr; gap:20px; }
+  .hero figure,.card { position:relative; min-width:0; }
+  .hero svg { height:213px; }
+  .hero figcaption { font:italic 12px/20px Arial,Helvetica,sans-serif; color:#555; }
+  .hero-copy { border-top:2px solid #16294d; padding-top:12px; }
+  .kicker { color:#a82d23; font-weight:bold; font-size:11px; line-height:14px; }
+  .hero .kicker { font-size:14px; line-height:18px; }
+  .hero h2 { font-size:34px; line-height:1.04; margin:6px 0 9px; }
+  .hero .summary { font-size:15px; line-height:20px; max-width:400px; }
+  .stamp { display:inline-block; color:#a82d23; border:1px solid #c0392b; font-size:12px; font-weight:bold; padding:5px 8px; margin-top:9px; }
+  .chip { position:absolute; top:4px; left:6px; min-width:26px; height:26px; display:grid; place-items:center; color:white; background:#c0392b; border:2px solid white; border-radius:50%; font-size:15px; font-weight:bold; box-shadow:0 1px 2px #0f1e3a55; }
+  .hero .chip { min-width:30px; height:30px; font-size:17px; }
+  .row { height:190px; padding:5px 20px 6px; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
+  .card { background:#fffdf8; border-bottom:1px solid #cfc6b4; }
+  .card svg { height:66px; }
+  .card-copy { padding:5px 10px 0; }
+  .card h2 { font-size:19px; line-height:20px; margin:1px 0 3px; text-wrap:balance; }
+  .card .summary { font-size:13px; line-height:15px; }
+  footer { height:68px; border-top:1px solid #16294d; margin:0 20px; display:grid; place-items:center; color:#434954; font-size:13px; }
+</style>
+<body>
+<header class="masthead">
+  <p>THE WORLD IN ONE IMAGE</p>
+  <h1>FRIDAY 20 NOVEMBER 2026</h1>
+</header>
+<figure class="atlas">
+  <figcaption>SEVEN STORIES · SEVEN PLACES · ONE DAY</figcaption>
+  <svg viewBox="0 0 1024 189" role="img" aria-label="World map: 1 Shenzhen, 2 The Hague, 3 New York, 4 India, 5 Berlin, 6 Seoul, 7 Riyadh">
+    <defs><filter id="pin-shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="1" stdDeviation="1.2" flood-color="#0f1e3a" flood-opacity=".4"/></filter></defs>
+    <path d="M0 24H1024M0 59H1024M0 94H1024M0 129H1024M0 164H1024M0 0V189M85 0V189M170 0V189M255 0V189M340 0V189M425 0V189M510 0V189M595 0V189M680 0V189M765 0V189M850 0V189M935 0V189M1020 0V189" fill="none" stroke="#fff" opacity=".52"/>
+    <g fill="#e6d9b8" stroke="#fff" stroke-width="1.4" stroke-linejoin="round">
+      <path d="M-5 10 40 6 76 12 103 6 134 14 142 24 171 22 187 34 173 43 151 44 162 57 144 63 130 59 125 69 112 78 108 89 92 96 88 109 74 104 72 95 56 97 52 107 63 118 81 123 92 132 87 136 69 128 48 125 34 112 31 96 17 88 6 70-5 64Z"/>
+      <path d="M91 130 110 124 129 129 144 135 165 142 173 153 155 163 142 170 130 185 126 199 114 195 113 180 104 165 102 153 90 142Z M192 10 219 3 254 9 267 17 250 34 225 42 206 32Z M91 112 111 108 130 112 115 117Z"/>
+      <path d="M433 39 442 29 441 18 451 15 456 28 453 40Z M414 46 416 32 425 25 429 37 423 49Z"/>
+      <path d="M413 79 428 67 426 54 439 49 448 44 465 46 477 39 482 24 500 12 512 13 508 32 525 29 538 18 563 16 582 4 610 11 642 4 669 12 701 8 727 14 757 7 786 12 813 7 849 16 872 12 896 20 922 15 946 21 979 22 1004 34 989 43 952 42 937 51 919 54 902 69 892 61 906 46 884 52 873 63 850 67 845 81 856 88 853 96 843 96 835 87 828 97 817 100 808 112 795 116 778 113 773 124 781 135 773 144 762 129 752 125 744 111 729 113 719 120 703 133 693 148 683 138 676 123 662 118 649 107 633 112 618 101 606 110 588 108 578 98 561 101 555 94 542 82 529 82 513 74 502 78 489 69 480 70 487 86 480 90 467 77 450 72 438 82Z"/>
+      <path d="M420 92 437 83 454 86 470 84 483 91 519 94 537 119 554 129 539 142 526 149 514 168 494 182 479 181 474 166 462 151 465 135 446 132 431 135 414 123 405 109Z M543 155 553 144 556 151 549 168 542 171Z M551 102 573 107 584 114 603 116 622 129 607 141 588 148 571 139 563 124Z"/>
+      <path d="M876 73 884 65 882 83 871 98 861 105 861 98Z M820 117 825 123 821 132 816 127Z M765 145 781 144 795 154 823 154 836 159 801 161 781 154Z M808 140 819 133 831 139 830 150 816 150Z M914 143 927 131 944 134 952 146 975 148 987 170 977 181 959 179 946 170 928 172 910 177 896 167 899 153Z M983 184 991 179 994 186 989 190Z M1007 172 1016 163 1019 169 1011 177Z"/>
+    </g>
+    <g class="labels">
+      <text x="805" y="136" text-anchor="middle">SHENZHEN</text>
+      <text x="435" y="35" text-anchor="end">THE HAGUE</text>
+      <text x="131" y="85">NEW YORK</text>
+      <text x="717" y="156">INDIA</text>
+      <text x="509" y="84">BERLIN</text>
+      <text x="868" y="70">SEOUL</text>
+      <text x="565" y="135" text-anchor="end">RIYADH</text>
+    </g>
+    <g class="pin">
+      <g transform="translate(805 105)"><circle r="13" filter="url(#pin-shadow)"/><text y="5.5">1</text></g>
+      <g transform="translate(459 48)"><circle r="13" filter="url(#pin-shadow)"/><text y="5.5">2</text></g>
+      <g transform="translate(110 80)"><circle r="13" filter="url(#pin-shadow)"/><text y="5.5">3</text></g>
+      <g transform="translate(700 130)"><circle r="13" filter="url(#pin-shadow)"/><text y="5.5">4</text></g>
+      <g transform="translate(492 60)"><circle r="13" filter="url(#pin-shadow)"/><text y="5.5">5</text></g>
+      <g transform="translate(850 85)"><circle r="13" filter="url(#pin-shadow)"/><text y="5.5">6</text></g>
+      <g transform="translate(585 130)"><circle r="13" filter="url(#pin-shadow)"/><text y="5.5">7</text></g>
+    </g>
+  </svg>
+</figure>
+<main>
+  <article class="hero">
+    <figure>
+      <svg viewBox="0 0 540 213" preserveAspectRatio="none" aria-label="The flags of the United States, China and Russia above the Shenzhen skyline and a summit table" role="img">
+        <defs>
+          <path id="star" d="M0-1 .224-.309 .951-.309 .363.118 .588.809 0 .382-.588.809-.363.118-.951-.309-.224-.309Z"/>
+          <g id="five-stars"><use href="#star" x="9"/><use href="#star" x="19"/><use href="#star" x="29"/><use href="#star" x="39"/><use href="#star" x="49"/></g>
+          <g id="six-stars"><use href="#five-stars" x="-5"/><use href="#star" x="54"/></g>
+        </defs>
+        <rect width="540" height="213" fill="#dceaf2"/>
+        <path d="M0 102H540M0 130H540M0 158H540" stroke="#f5fafc"/>
+        <path d="M0 161H17V144H33V125H51V151H69V119H87V138H100V154H116V114H130V94H144V115H154V143H177V128H190V141H214V100H225V84H237V112H249V143H270V123H284V148H306V129H321V111H337V140H358V122H377V153H394V114H412V104H424V127H444V140H461V124H477V151H493V110H514V136H533V150H540V193H0Z" fill="#a9c5d3"/>
+        <path d="M0 173H29V143H49V134H66V159H91V110H99V99H105V110H111V163H135V153H149V128H165V160H188V145H204V157H227V131H242V158H255L261 106 268 86 275 106 281 157H302V141H325V159H346V133H362V150H378V121H392V142H412V163H432V152H455V119H472V130H487V151H505V142H523V164H540V213H0Z" fill="#52758c"/>
+        <path d="M45 148H57m-12 8h12m37-33h13m-13 8h13m-13 8h13m47-2h12m-12 8h12m96-28h15m-16 10h17m-18 10h19m-20 10h21m103-15h9m-9 8h9m66-12h15m-15 8h15m-15 8h15" stroke="#dceaf2" stroke-width="1.5"/>
+        <g transform="translate(47 14)">
+          <path d="M-4-3V85" stroke="#16294d" stroke-width="2"/>
+          <rect width="128" height="65" fill="#fff8ef"/>
+          <path d="M0 2.5H128M0 12.5H128M0 22.5H128M0 32.5H128M0 42.5H128M0 52.5H128M0 62.5H128" stroke="#b62b42" stroke-width="5"/>
+          <rect width="58" height="35" fill="#253b67"/>
+          <g fill="white"><use href="#six-stars" y="3.5"/><use href="#five-stars" y="7"/><use href="#six-stars" y="10.5"/><use href="#five-stars" y="14"/><use href="#six-stars" y="17.5"/><use href="#five-stars" y="21"/><use href="#six-stars" y="24.5"/><use href="#five-stars" y="28"/><use href="#six-stars" y="31.5"/></g>
+        </g>
+        <g transform="translate(206 14)">
+          <path d="M-4-3V85" stroke="#16294d" stroke-width="2"/>
+          <rect width="128" height="65" fill="#cf332d"/>
+          <g fill="#ffdc54"><use href="#star" transform="translate(22 20) scale(10)"/><use href="#star" transform="translate(37 9) rotate(-24) scale(3.4)"/><use href="#star" transform="translate(44 15) rotate(-16) scale(3.4)"/><use href="#star" transform="translate(44 24) rotate(-3) scale(3.4)"/><use href="#star" transform="translate(37 31) rotate(18) scale(3.4)"/></g>
+        </g>
+        <g transform="translate(365 14)">
+          <path d="M-4-3V85" stroke="#16294d" stroke-width="2"/>
+          <path d="M0 0H128V22H0Z" fill="#fff"/><path d="M0 22H128V44H0Z" fill="#244f9c"/><path d="M0 44H128V65H0Z" fill="#c4333a"/>
+        </g>
+        <path d="M0 179H540V213H0Z" fill="#233d58"/>
+        <path d="M117 182q153 32 306 0v13q-153 36-306 0Z" fill="#9c6940"/>
+        <ellipse cx="270" cy="181" rx="153" ry="24" fill="#e2b971" stroke="#523c32" stroke-width="2"/>
+        <ellipse cx="270" cy="181" rx="139" ry="18" fill="none" stroke="#ad7e4d"/>
+        <g fill="#fff8e8" stroke="#986c45"><path d="m159 174 25-3 13 9-28 3Z"/><path d="M257 166h26v10h-26Z"/><path d="m356 171 25 3-10 9-28-3Z"/></g>
+        <path d="m201 180 6-9 9-1m52 10 2-8 8-2m60 10-6-9-9-1" fill="none" stroke="#233d58" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <span class="chip" aria-label="Map pin 1">1</span>
+      <figcaption>The first-ever trilateral summit — illustration</figcaption>
+    </figure>
+    <div class="hero-copy">
+      <p class="kicker">ASIA · DIPLOMACY</p>
+      <h2>Trump, Xi and Putin sign 'peace declaration'</h2>
+      <p class="summary">The three leaders met for 90 minutes in Shenzhen — the first-ever trilateral of the US, China and Russia — pledging that a nuclear war "cannot be won and must not be fought". Ukraine and Iran went unmentioned.</p>
+      <p class="stamp">FIRST-EVER TRILATERAL</p>
+    </div>
+  </article>
+  <section class="row" aria-label="Stories 2 to 4">
+    <article class="card">
+      <svg viewBox="0 0 320 66" preserveAspectRatio="none" aria-label="Courthouse and scales of justice" role="img">
+        <rect width="320" height="66" fill="#ede2c7"/>
+        <path d="M0 56H320M0 61H320" stroke="#d1bc91"/>
+        <path d="M57 24 122 5 187 24Z M62 53H181V58H62Z M55 58H188V63H55Z" fill="#16294d"/>
+        <path d="m77 20 45-12 45 12Z" fill="#d4a437"/>
+        <path d="M72 28H172V53H72Z" fill="#b8a78c"/>
+        <path d="M79 29V53M99 29V53M122 29V53M145 29V53M165 29V53" stroke="#faf6ee" stroke-width="9"/>
+        <g transform="translate(250 33) scale(1.5 1.4) translate(-243 -34)">
+          <path d="M243 12V54M229 56H257M213 20H273M219 21l-10 20h20Zm47 0-10 20h20Z" stroke="#16294d" stroke-width="2" fill="none"/>
+          <circle cx="243" cy="15" r="4" fill="#a9791d"/>
+          <path d="M207 41h24q-3 8-12 8t-12-8Zm47 0h24q-3 8-12 8t-12-8Z" fill="#a9791d"/>
+        </g>
+      </svg>
+      <span class="chip" aria-label="Map pin 2">2</span>
+      <div class="card-copy">
+        <p class="kicker">LAW · THE HAGUE</p>
+        <h2>World court: Myanmar committed genocide</h2>
+        <p class="summary">The ICJ ruled 9-6 that Myanmar committed genocide against the Rohingya in 2017 — the first time a state has been held liable for genocide.</p>
+      </div>
+    </article>
+    <article class="card">
+      <svg viewBox="0 0 320 66" preserveAspectRatio="none" aria-label="Rising share-price chart and a skyscraper with a dollar sign" role="img">
+        <rect width="320" height="66" fill="#16294d"/>
+        <path d="M45 14H222M45 28H222M45 42H222M45 56H222M54 8V60M82 8V60M110 8V60M138 8V60M166 8V60M194 8V60" stroke="#3b536b" fill="none"/>
+        <path d="m54 53 24-5 24 2 24-16 24 5 24-16 18 2 25-14m-12 1 12-1-5 11" fill="none" stroke="#78e4ad" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M235 66V18L261 8l26 10v48Z" fill="#6c91a4"/><path d="M261 8v58h26V18Z" fill="#41627e"/>
+        <path d="M249 10V4h24v6m-35 48h46m-46 5h46" fill="none" stroke="#c3dbe1"/>
+        <text x="261" y="49" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="33" fill="#f4df93">$</text>
+      </svg>
+      <span class="chip" aria-label="Map pin 3">3</span>
+      <div class="card-copy">
+        <p class="kicker">MARKETS · TECH</p>
+        <h2>Anthropic IPO: biggest ever at $81.3bn</h2>
+        <p class="summary">Priced at $83 a share, valuing the AI firm at about $1.5 trillion; shares rose 17% on debut, beating SpaceX's $75bn record.</p>
+      </div>
+    </article>
+    <article class="card">
+      <svg viewBox="0 0 320 66" preserveAspectRatio="none" aria-label="Cyclone spiral over a coastline with rain and a warning triangle" role="img">
+        <rect width="320" height="66" fill="#afcdd9"/>
+        <path d="M0 38 40 33 62 44 107 40 134 49 112 59 138 66H0Z" fill="#e6d9b8" stroke="#edf5f7" stroke-width="2"/>
+        <path d="M87 18q26-20 71-14 35 4 45 21 10 17-16 28-23 10-51 0-24-8-17-22 6-12 27-13 30-2 37 11 6 12-14 14-14 1-17-7" transform="translate(0 5) scale(1 .89)" fill="none" stroke="#f9fcff" stroke-width="7" stroke-linecap="round"/>
+        <path d="M65 43l-6 9m24-17-7 10m16 4-7 10m109-3-6 9m24-18-7 10m13-23-5 8" stroke="#4f7b97" stroke-width="2" stroke-linecap="round"/>
+        <path d="m261 14 24 41h-48Z" fill="#c0392b" stroke="#fff" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M261 28v12m0 5v2" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/>
+      </svg>
+      <span class="chip" aria-label="Map pin 4">4</span>
+      <div class="card-copy">
+        <p class="kicker">WEATHER · INDIA</p>
+        <h2>300,000 flee as Cyclone Akvan nears India</h2>
+        <p class="summary">Landfall due at midday Friday on the Narsapur–Puri coast, with gusts to 110 km/h; red alerts issued across Odisha and Andhra Pradesh.</p>
+      </div>
+    </article>
+  </section>
+  <section class="row" aria-label="Stories 5 to 7">
+    <article class="card">
+      <svg viewBox="0 0 320 66" preserveAspectRatio="none" aria-label="Brandenburg Gate and European Union flags" role="img">
+        <defs><g id="eu-flag"><path d="M0 0v48" stroke="#16294d"/><path d="M0 1h33v21H0Z" fill="#1d4c91"/><circle cx="16.5" cy="11.5" r="6" stroke="#f0ca60" stroke-width="1.8" stroke-dasharray="1.1 2.04" fill="none"/></g></defs>
+        <rect width="320" height="66" fill="#e7e4d8"/>
+        <path d="M0 57H320V66H0Z" fill="#cdc3aa"/>
+        <path d="M49 58V33H67V57M170 58V33H189V58M62 31H177V24H62Z M80 24H159V16H80Z M113 16l-4-5 2-3 6 2 3-5 3 5 8-2 2 3-4 5Z M43 58H194V63H43Z" fill="#34475d"/>
+        <path d="M73 32V58M91 32V58M109 32V58M129 32V58M148 32V58M166 32V58" stroke="#34475d" stroke-width="8"/>
+        <use href="#eu-flag" x="201" y="15"/><use href="#eu-flag" x="239" y="15"/><use href="#eu-flag" x="277" y="15"/>
+      </svg>
+      <span class="chip" aria-label="Map pin 5">5</span>
+      <div class="card-copy">
+        <p class="kicker">EUROPE · UKRAINE</p>
+        <h2>Europe calls Shenzhen summit a 'photo op'</h2>
+        <p class="summary">The Coalition of the Willing met in Berlin; Merz said talks on Ukraine must include Europe — "A Yalta-style format will not bring peace."</p>
+      </div>
+    </article>
+    <article class="card">
+      <svg viewBox="0 0 320 66" preserveAspectRatio="none" aria-label="Container ship, semiconductor and an upward arrow" role="img">
+        <rect width="320" height="66" fill="#d5ebe4"/>
+        <path d="M0 54q10-4 20 0t20 0 20 0 20 0 20 0 20 0 20 0 20 0 20 0 20 0 20 0 20 0 20 0 20 0 20 0 20 0v12H0Z" fill="#84b3b6"/>
+        <path d="M45 42h140l-15 16H66Z" fill="#183b52"/>
+        <path d="M58 42V25h23v17Z" fill="#faf6ee"/><path d="M62 30h15" stroke="#183b52" stroke-width="3"/>
+        <g stroke="#d5ebe4"><path d="M83 31h30v11H83Z M113 20h29v11h-29Z M142 31h30v11h-30Z" fill="#b64d38"/><path d="M113 31h29v11h-29Z M142 20h30v11h-30Z" fill="#d39f45"/></g>
+        <path d="M203 25h42v29h-42Z" fill="#254a51"/><path d="M212 31h24v17h-24Z" fill="#8ac5aa"/>
+        <path d="M210 21v4m9-4v4m9-4v4m9-4v4m-27 29v4m9-4v4m9-4v4m9-4v4m-38-27h4m-4 8h4m-4 8h4m42-16h4m-4 8h4m-4 8h4" stroke="#254a51" stroke-width="2"/>
+        <path d="m259 26 21-21 21 21h-12v28h-18V26Z" fill="#207b63"/>
+      </svg>
+      <span class="chip" aria-label="Map pin 6">6</span>
+      <div class="card-copy">
+        <p class="kicker">ECONOMY · ASIA</p>
+        <h2>South Korea exports top $1 trillion</h2>
+        <p class="summary">A first for Korea — the fourth country ever to reach the mark — driven by an AI chip boom; semiconductors are 43% of shipments.</p>
+      </div>
+    </article>
+    <article class="card">
+      <svg viewBox="0 0 320 66" preserveAspectRatio="none" aria-label="Smoke over a Riyadh skyscraper beneath a night sky" role="img">
+        <rect width="320" height="66" fill="#172440"/>
+        <path d="M52 15h2m23 10h2m27-13h2m99 6h2m85 6h2m-17-13h2" stroke="#a6b0c1" stroke-width="1.5"/>
+        <path d="M0 58h52v-9h26v5h16V41h20v12h23v-8h71v10h22V40h16v10h32v-9h19v11h23v14H0Z" fill="#33415d"/>
+        <path d="m145 66 8-42 14-6 16 9 9 39Z" fill="#8da3b9"/><path d="m167 18 16 9 9 39h-22Z" fill="#56718d"/>
+        <path d="M156 31h6m-8 7h8m-9 7h9m-11 7h10m-11 7h11" stroke="#e1ba6f" stroke-width="1.5"/>
+        <path d="M162 20q-15-3-14-8-14 1-16-4-13 2-21-2 15 1 24-2 16-1 21 5 14-2 19 3 3 5-13 8Z" fill="#a2a1af"/>
+        <path d="m167 9 2 5 6-4-3 6 7 1-7 3 3 6-6-3-2 6-2-6-6 3 3-6-7-2 7-2-3-5 6 3Z" fill="#f18c34"/>
+        <path d="m167 13 2 4 5 1-5 2-2 5-2-5-5-2 5-1Z" fill="#fff1a0"/>
+        <path d="M-32 0q3-4 10-4h12v-11h6l3 11h21l5-6h5l-2 9 2 8h-5l-5-4H-1l-3 12h-6V4h-12q-7 0-10-4Z" transform="translate(249 22) rotate(-8)" fill="#0a1428" stroke="#d4dfeb" stroke-width="1.4" stroke-linejoin="round"/>
+      </svg>
+      <span class="chip" aria-label="Map pin 7">7</span>
+      <div class="card-copy">
+        <p class="kicker">MIDDLE EAST · CONFLICT</p>
+        <h2>Houthi strike hits Riyadh's tallest tower</h2>
+        <p class="summary">Saudi authorities confirmed the attack damaged a landmark in the financial district housing the sovereign wealth fund's HQ.</p>
+      </div>
+    </article>
+  </section>
+</main>
+<footer>Events reported Friday 20 November 2026 · Sources: BBC, Reuters, AP, NYT, USA Today</footer>
+</body>
+</html>
